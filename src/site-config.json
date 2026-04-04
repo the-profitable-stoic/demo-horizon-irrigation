@@ -1,0 +1,552 @@
+{
+  "business": {
+    "name": "Horizon Irrigation",
+    "phone": "555-irr-r90",
+    "category": "irrigation",
+    "city": "Sacramento",
+    "state": "CA"
+  },
+  "design": {
+    "preset": {
+      "id": "irrigation-trust-navy",
+      "categoryGroup": "irrigation",
+      "name": "Trust Navy",
+      "recipeFile": "irrigation/trust-navy.astro",
+      "colors": {
+        "primary": "#0369A1",
+        "primaryDark": "#0C4A6E",
+        "primaryLight": "#c0dae8",
+        "secondary": "#035989",
+        "accent": "#06B6D4",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#0369A1",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Nunito",
+        "headingWeight": "700",
+        "bodyFont": "Roboto",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "irrigation/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Sacramento's Trusted Irrigation Experts",
+      "heroSubline": "Precision irrigation solutions for the Central Valley's unique climate. Serving Elk Grove, Roseville, and Folsom with tailored water management systems.",
+      "aboutTitle": "Rooted in Sacramento Soil",
+      "aboutText": [
+        "Founded in 2012, Horizon Irrigation began as a two-person operation serving Midtown bungalows with outdated sprinkler systems. Today, we design smart irrigation solutions for Sacramento's diverse neighborhoods.",
+        "We specialize in drought-resistant designs that account for clay soil expansion and 100°F summers. Our team understands how Sacramento's microclimates affect water distribution.",
+        "From historic Land Park homes to Natomas developments, we're committed to water conservation that preserves our region's beauty while adapting to its challenges."
+      ],
+      "valueProps": [
+        {
+          "title": "Climate-Smart Design",
+          "description": "Systems engineered for Sacramento's extreme heat and clay soil conditions"
+        },
+        {
+          "title": "Neighborhood Specialists",
+          "description": "12 years adapting solutions from Craftsman homes to modern subdivisions"
+        },
+        {
+          "title": "Water Wisdom",
+          "description": "Helping homeowners navigate California's complex water regulations since 2012"
+        },
+        {
+          "title": "Local Response",
+          "description": "Same-week service for urgent repairs before the next heat wave"
+        }
+      ],
+      "ctaHeadline": "Schedule Your Irrigation Evaluation",
+      "ctaSubline": "Get a free assessment of your system's efficiency before summer peaks"
+    },
+    "services": [
+      {
+        "slug": "drip-irrigation",
+        "name": "Drip Irrigation Systems",
+        "shortDescription": "Water-efficient targeted irrigation perfect for Sacramento's drought conditions.",
+        "description": "Our drip systems deliver water directly to plant roots, reducing evaporation in Sacramento's 100°F summers. We use commercial-grade tubing that withstands clay soil expansion and contraction.\n\nPerfect for native plant gardens in East Sacramento or vegetable beds in Elk Grove backyards. Includes moisture sensors that adjust watering based on real-time conditions - crucial during our unpredictable dry spells.\n\nWe retrofit existing systems or design new installations with Sacramento's water restrictions in mind. All work includes training on seasonal adjustments for our Mediterranean climate.",
+        "process": [
+          "Step 1: Site evaluation of soil type and plant water needs",
+          "Step 2: Custom design accounting for sun exposure and slope",
+          "Step 3: Professional installation with freeze-resistant components",
+          "Step 4: Smart controller programming for Sacramento's watering schedules"
+        ],
+        "benefits": [
+          "60% less water than traditional sprinklers",
+          "Prevents overspray on Sacramento's narrow lots",
+          "Reduces weed growth in planting beds",
+          "Compliant with California's Tier 2 water restrictions"
+        ],
+        "faq": [
+          {
+            "question": "How does drip irrigation handle our clay soil?",
+            "answer": "We use pressure-compensating emitters and sand filters to prevent clogging from Sacramento's mineral-rich water and soil particles."
+          },
+          {
+            "question": "Can I automate my system?",
+            "answer": "Yes, we install smart controllers that adjust for Sacramento's weather patterns and mandatory watering days."
+          },
+          {
+            "question": "Do you service older systems?",
+            "answer": "We specialize in updating 1970s-90s systems common in Land Park and Curtis Park neighborhoods."
+          }
+        ]
+      },
+      {
+        "slug": "sprinkler-repair",
+        "name": "Sprinkler System Repair",
+        "shortDescription": "Fast fixes for broken heads, leaks, and controller issues.",
+        "description": "When Sacramento's extreme temperatures cause sprinkler components to fail, we provide same-week repairs to prevent water waste. Common issues we address:\n\n• Cracked heads from foot traffic or mowing in suburban yards\n• Leaking valves worsened by our mineral-heavy water\n• Controller malfunctions during power surges from summer storms\n\nWe stock parts compatible with major brands installed in local homes, from older Rain Bird systems in Midtown to newer Hunter models in Natomas developments. Emergency service available when temperatures spike above 100°F to protect your landscaping investment.\n\nAll repairs include a water audit to identify other efficiency opportunities specific to your neighborhood's watering restrictions.",
+        "process": [
+          "Step 1: Diagnostic test of water pressure and electrical components",
+          "Step 2: Identification of all failure points",
+          "Step 3: Repair with upgraded components where needed",
+          "Step 4: System test and water usage report"
+        ],
+        "benefits": [
+          "Prevents costly water bills from leaks",
+          "Extends lifespan of existing equipment",
+          "Maintains curb appeal during selling season",
+          "24/7 emergency service during heat waves"
+        ],
+        "faq": [
+          {
+            "question": "Why do my sprinklers keep breaking?",
+            "answer": "Sacramento's hard water causes mineral buildup, and clay soil shifts can misalign heads - we install durable components to mitigate these issues."
+          },
+          {
+            "question": "How quickly can you respond to leaks?",
+            "answer": "Priority slots for active leaks, typically within 48 hours in our service areas."
+          },
+          {
+            "question": "Do you repair old galvanized pipe systems?",
+            "answer": "Yes, we specialize in updating these while minimizing landscape disruption - common in 1960s Arden-Arcade homes."
+          }
+        ]
+      },
+      {
+        "slug": "smart-controllers",
+        "name": "Smart Irrigation Controllers",
+        "shortDescription": "Weather-responsive technology that saves water and money.",
+        "description": "Upgrade to a smart controller that automatically adjusts watering based on Sacramento's microclimates. Our most popular models:\n\n• Rachio 3: Ideal for tech-savvy homeowners in newer Elk Grove developments\n• RainMachine: Perfect for larger lots in Folsom with multiple zones\n\nWe program each system with local weather data and Sacramento County's watering restrictions already configured. Receive alerts when systems malfunction during our summer thunderstorms or when water pressure drops.\n\nIncludes smartphone control so you can adjust settings when away from home - especially useful for snowbirds who winter elsewhere but need to maintain Sacramento properties. Compatible with existing systems in homes of any age.",
+        "process": [
+          "Step 1: Assessment of current wiring and zone configuration",
+          "Step 2: Selection of optimal controller for your property size",
+          "Step 3: Professional installation with WiFi setup",
+          "Step 4: Personalized training on mobile app features"
+        ],
+        "benefits": [
+          "Automatically skips watering after Folsom rain",
+          "Saves 15-30% on summer water bills",
+          "Prevents fines for watering on wrong days",
+          "Remote monitoring from any location"
+        ],
+        "faq": [
+          {
+            "question": "Will this work with my 1980s irrigation system?",
+            "answer": "Yes, we adapt new controllers to work with older wiring found in Carmichael and Orangevale homes."
+          },
+          {
+            "question": "How does it handle Sacramento's sudden temperature swings?",
+            "answer": "Controllers use hyperlocal weather data to increase watering before heat waves and reduce during cool spells."
+          },
+          {
+            "question": "What if my WiFi goes down?",
+            "answer": "Systems continue working on pre-set schedules until connectivity resumes."
+          }
+        ]
+      },
+      {
+        "slug": "new-installations",
+        "name": "Complete System Installations",
+        "shortDescription": "Custom-designed irrigation for new construction or landscape renovations.",
+        "description": "From zero-lot-line Midtown homes to sprawling Roseville backyards, we engineer irrigation systems that match your landscape's unique needs. Our process:\n\n1. Detailed analysis of soil composition (especially crucial for Sacramento's clay-heavy areas)\n2. Zone mapping based on plant water requirements and sun exposure\n3. Installation of commercial-grade components that withstand our climate\n\nWe coordinate with landscape architects on new builds throughout the region, ensuring proper grading and drainage to prevent pooling during winter rains. For historic district homes, we design discreet systems that preserve architectural integrity while meeting modern efficiency standards.\n\nEvery installation includes a water conservation plan tailored to your neighborhood's specific restrictions and typical weather patterns.",
+        "process": [
+          "Step 1: Topographic survey and soil testing",
+          "Step 2: Custom design meeting with 3D visualization",
+          "Step 3: Trenching with minimal landscape disruption",
+          "Step 4: Final inspection and water audit"
+        ],
+        "benefits": [
+          "Increase property value with professional-grade system",
+          "Proper coverage for Sacramento's varied microclimates",
+          "Future-ready design for drought conditions",
+          "Compliance with all local water regulations"
+        ],
+        "faq": [
+          {
+            "question": "How long does a full installation take?",
+            "answer": "Typically 2-4 days depending on yard size - we coordinate with Sacramento's dry season for optimal timing."
+          },
+          {
+            "question": "Do you handle permits?",
+            "answer": "Yes, we manage all paperwork required by Sacramento County and local municipalities."
+          },
+          {
+            "question": "Can you work around mature trees?",
+            "answer": "We use air-tool trenching to protect roots in established Land Park and East Sac neighborhoods."
+          }
+        ]
+      },
+      {
+        "slug": "seasonal-adjustments",
+        "name": "Seasonal System Tune-Ups",
+        "shortDescription": "Twice-yearly service to optimize efficiency for Sacramento's climate swings.",
+        "description": "Our most popular maintenance program prepares your system for Sacramento's distinct seasons:\n\nSpring Activation:\n• Winter damage inspection from our occasional freezes\n• Nozzle cleaning for mineral deposits from hard water\n• Schedule programming for summer restrictions\n\nFall Winterization:\n• Complete blow-out to prevent pipe bursts\n• Controller reprogramming for reduced watering\n• Valve insulation for frost protection\n\nParticularly critical for vacation homes in Granite Bay or snowbird properties that sit empty during seasonal transitions. We service all makes and models, including older systems common in Tahoe Park and College Greens neighborhoods.",
+        "process": [
+          "Step 1: Comprehensive system inspection",
+          "Step 2: Cleaning and component testing",
+          "Step 3: Pressure adjustment and reprogramming",
+          "Step 4: Detailed report with recommendations"
+        ],
+        "benefits": [
+          "Prevents costly winter pipe damage",
+          "Ensures proper summer performance",
+          "Extends equipment lifespan by years",
+          "Peace of mind during temperature extremes"
+        ],
+        "faq": [
+          {
+            "question": "How often should my system be serviced?",
+            "answer": "We recommend twice yearly - before summer watering season and before first frost."
+          },
+          {
+            "question": "Do you service commercial properties?",
+            "answer": "Yes, we maintain systems for HOAs throughout Elk Grove and office complexes in the Central Business District."
+          },
+          {
+            "question": "What if I have a smart controller?",
+            "answer": "We update all weather settings and check WiFi connectivity during service visits."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Meredith K.",
+        "rating": 5,
+        "service": "Drip Irrigation Installation",
+        "text": "Horizon transformed our East Sacramento cottage garden with a precision drip system that handles the clay soil beautifully. They suggested adding extra emitters for our roses that always struggled in summer heat. Two seasons later, everything thrives while using half the water of our old sprinklers.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "James R.",
+        "rating": 5,
+        "service": "Emergency Sprinkler Repair",
+        "text": "When a leak was flooding our Land Park driveway during 108°F temps, Horizon came within hours. They not only fixed the broken valve but reconfigured our zones to prevent future issues. Their knowledge of older neighborhood systems is unmatched.",
+        "date": "2025-06-22"
+      },
+      {
+        "name": "Lisa T.",
+        "text": "Our new smart controller automatically adjusts for Elk Grove's watering days and saved us $80 last month. The tech walked us through every app feature until we were comfortable. No more coming home to sprinklers running in the rain!",
+        "rating": 5,
+        "service": "Smart Controller Installation",
+        "date": "2025-04-05"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Complete System Installation",
+        "text": "Building a new home in Natomas, we needed irrigation that could handle the heavy soil. Horizon designed zones with proper drainage and used commercial-grade parts. Two summers in with zero issues - even during that brutal heat wave last September.",
+        "date": "2025-01-30"
+      },
+      {
+        "name": "Sarah P.",
+        "rating": 5,
+        "service": "Seasonal Tune-Up",
+        "text": "As snowbirds, we rely on Horizon to winterize our Folsom home. They take photos of the blow-out process and store our controller inside. Came home this spring to a perfectly functioning system programmed for current restrictions.",
+        "date": "2025-05-18"
+      },
+      {
+        "name": "David L.",
+        "rating": 5,
+        "service": "Sprinkler Repair",
+        "text": "Fixed our erratic sprinklers in Midtown that kept tripping the breaker. Turned out to be faulty wiring from the 1980s installation. They rerouted everything neatly and now all zones work perfectly. Appreciate their honest approach - no upselling.",
+        "date": "2025-02-10"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Sacramento Irrigation Services | Horizon Irrigation",
+        "description": "Expert irrigation solutions for Sacramento's climate. Serving Elk Grove, Roseville, and Folsom with water-efficient systems since 2012."
+      },
+      "about": {
+        "title": "About Our Sacramento Irrigation Company",
+        "description": "Local irrigation specialists understanding Central Valley's clay soil, extreme heat, and water restrictions."
+      },
+      "services": {
+        "title": "Sacramento Irrigation Services | Drip Systems & Repairs",
+        "description": "Comprehensive irrigation services including smart controllers, installations, and seasonal maintenance for Sacramento homes."
+      },
+      "contact": {
+        "title": "Contact Sacramento's Irrigation Experts",
+        "description": "Schedule irrigation services in Sacramento County. Same-week availability for repairs and consultations."
+      },
+      "reviews": {
+        "title": "Sacramento Irrigation Customer Reviews",
+        "description": "See why Sacramento homeowners trust Horizon Irrigation for their landscape watering needs."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Elk Grove",
+        "slug": "elk-grove-ca",
+        "state": "CA",
+        "content": "Horizon Irrigation provides top-quality irrigation solutions for Elk Grove's thriving master-planned communities. With hot, dry summers often exceeding 100°F, efficient irrigation is essential to maintain lush, healthy landscapes. Our services include smart sprinkler systems, drip irrigation, and water-efficient designs tailored to newer homes (1990s-2020s). We help homeowners conserve water while keeping lawns and gardens vibrant in this fast-growing Sacramento suburb.",
+        "localContext": "Elk Grove is a rapidly expanding city with modern planned neighborhoods and a focus on sustainable living.",
+        "nearbyAreas": [
+          "Sacramento",
+          "Galt",
+          "Rancho Cordova"
+        ]
+      },
+      {
+        "city": "Roseville",
+        "slug": "roseville-ca",
+        "state": "CA",
+        "content": "Roseville's well-planned communities (1990s-2000s) and scorching summer temperatures make professional irrigation a must. Horizon Irrigation specializes in custom systems for Roseville homes, ensuring water efficiency in this dry climate. From smart controllers to drought-resistant landscaping, we help residents maintain beautiful outdoor spaces without wasting resources. Our local expertise ensures your system is optimized for Roseville's unique conditions.",
+        "localContext": "Roseville combines modern suburban living with easy access to Sacramento and the Sierra foothills.",
+        "nearbyAreas": [
+          "Rocklin",
+          "Lincoln",
+          "Citrus Heights"
+        ]
+      },
+      {
+        "city": "Folsom",
+        "slug": "folsom-ca",
+        "state": "CA",
+        "content": "Folsom's newer planned communities require irrigation systems that can handle extreme summer heat while conserving precious water. Horizon Irrigation designs and installs high-efficiency systems perfect for Folsom's climate, including smart technology that adjusts to weather patterns. Whether you're near Lake Natoma or in one of Folsom's growing neighborhoods, we'll create a system that keeps your landscape thriving through the hottest months.",
+        "localContext": "Folsom offers a mix of modern development and outdoor recreation along the American River.",
+        "nearbyAreas": [
+          "El Dorado Hills",
+          "Rancho Cordova",
+          "Orangevale"
+        ]
+      },
+      {
+        "city": "Rocklin",
+        "slug": "rocklin-ca",
+        "state": "CA",
+        "content": "Rocklin's growing communities need irrigation solutions that balance water conservation with landscape health. Horizon Irrigation serves Rocklin homeowners with custom systems designed for hot, dry conditions. We install weather-based controllers and high-efficiency nozzles to protect your investment in your home's curb appeal. Our local knowledge ensures your irrigation system meets Rocklin's specific needs and any water use regulations.",
+        "localContext": "Rocklin is a family-friendly city with excellent schools and expanding residential areas.",
+        "nearbyAreas": [
+          "Roseville",
+          "Lincoln",
+          "Loomis"
+        ]
+      },
+      {
+        "city": "El Dorado Hills",
+        "slug": "el-dorado-hills-ca",
+        "state": "CA",
+        "content": "El Dorado Hills' upscale homes and challenging terrain demand specialized irrigation solutions. Horizon Irrigation designs systems that account for the area's elevation changes and hot summers. We focus on water-efficient technologies that maintain beautiful landscapes while respecting the region's limited water resources. From smart zone control to drip irrigation for native plantings, we help El Dorado Hills residents create sustainable outdoor spaces.",
+        "localContext": "El Dorado Hills offers luxury living with rolling hills and views of Folsom Lake.",
+        "nearbyAreas": [
+          "Folsom",
+          "Cameron Park",
+          "Shingle Springs"
+        ]
+      },
+      {
+        "city": "Rancho Cordova",
+        "slug": "rancho-cordova-ca",
+        "state": "CA",
+        "content": "Rancho Cordova's mix of established and newer neighborhoods requires flexible irrigation solutions. Horizon Irrigation serves this diverse area with systems adapted to both older properties and modern developments. We address the challenges of 100°F+ summers with water-saving technologies and proper system maintenance. Our team understands Rancho Cordova's unique microclimates and designs accordingly for optimal performance.",
+        "localContext": "Rancho Cordova is a strategically located community between Sacramento and Folsom.",
+        "nearbyAreas": [
+          "Sacramento",
+          "Gold River",
+          "Folsom"
+        ]
+      },
+      {
+        "city": "Lincoln",
+        "slug": "lincoln-ca",
+        "state": "CA",
+        "content": "Lincoln's rapid growth and hot climate make efficient irrigation essential for new homeowners. Horizon Irrigation specializes in systems for Lincoln's expanding communities, focusing on water conservation during scorching summers. We install smart controllers that adjust to weather conditions and high-efficiency sprinklers that reduce runoff. Whether you're in a new development or an established neighborhood, we'll design a system that meets Lincoln's unique needs.",
+        "localContext": "Lincoln is one of California's fastest-growing cities with master-planned communities.",
+        "nearbyAreas": [
+          "Rocklin",
+          "Roseville",
+          "Wheatland"
+        ]
+      },
+      {
+        "city": "Galt",
+        "slug": "galt-ca",
+        "state": "CA",
+        "content": "Galt's agricultural heritage and newer residential areas both benefit from Horizon Irrigation's expertise. We design systems that handle extreme summer heat while conserving water - crucial in this semi-rural community. Whether you have a small urban lot or larger property, we create customized solutions that work with Galt's climate and soil conditions. Our maintenance services keep systems running efficiently year-round.",
+        "localContext": "Galt blends small-town charm with modern growth south of Sacramento.",
+        "nearbyAreas": [
+          "Elk Grove",
+          "Lodi",
+          "Herald"
+        ]
+      },
+      {
+        "city": "Citrus Heights",
+        "slug": "citrus-heights-ca",
+        "state": "CA",
+        "content": "Citrus Heights' mature landscapes need irrigation systems that deliver both reliability and water efficiency. Horizon Irrigation updates older systems with modern water-saving technologies perfect for the area's hot summers. We specialize in retrofitting existing setups with smart controllers, efficient nozzles, and proper zoning to reduce waste. Our local team understands Citrus Heights' specific irrigation challenges and delivers tailored solutions.",
+        "localContext": "Citrus Heights is an established suburb with a mix of older and updated properties.",
+        "nearbyAreas": [
+          "Roseville",
+          "Fair Oaks",
+          "Orangevale"
+        ]
+      },
+      {
+        "city": "Carmichael",
+        "slug": "carmichael-ca",
+        "state": "CA",
+        "content": "Carmichael's tree-lined streets and varied property sizes require thoughtful irrigation solutions. Horizon Irrigation designs systems that account for shade patterns, mature roots, and summer heat extremes. We help homeowners balance beautiful landscapes with water conservation in this established community. From system upgrades to new installations, our local expertise ensures your Carmichael property gets the right irrigation solution.",
+        "localContext": "Carmichael is a well-established Sacramento suburb with character and charm.",
+        "nearbyAreas": [
+          "Fair Oaks",
+          "Sacramento",
+          "Citrus Heights"
+        ]
+      },
+      {
+        "city": "Orangevale",
+        "slug": "orangevale-ca",
+        "state": "CA",
+        "content": "Orangevale's mix of rural and suburban properties demands flexible irrigation approaches. Horizon Irrigation serves this unique community with systems adapted to both large lots and standard subdivisions. We address the challenges of hot, dry summers with water-efficient designs that maintain landscapes without waste. Whether you have a small garden or acreage, we'll create a customized solution for Orangevale's specific conditions.",
+        "localContext": "Orangevale offers a semi-rural lifestyle with convenient access to Sacramento.",
+        "nearbyAreas": [
+          "Fair Oaks",
+          "Folsom",
+          "Citrus Heights"
+        ]
+      },
+      {
+        "city": "Fair Oaks",
+        "slug": "fair-oaks-ca",
+        "state": "CA",
+        "content": "Fair Oaks' unique blend of river access and suburban living requires irrigation systems that handle varied terrain. Horizon Irrigation designs solutions for properties ranging from American River frontage to traditional neighborhood lots. We account for the area's hot summers with water-saving technologies that protect both landscapes and the river ecosystem. Our local knowledge ensures your Fair Oaks irrigation system performs optimally in all conditions.",
+        "localContext": "Fair Oaks is known for its village atmosphere and access to the American River.",
+        "nearbyAreas": [
+          "Carmichael",
+          "Orangevale",
+          "Sacramento"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "drip-irrigation": "/images/service-drip-irrigation.webp",
+      "sprinkler-repair": "/images/service-sprinkler-repair.webp",
+      "seasonal-adjustments": "/images/service-seasonal-adjustments.webp",
+      "smart-controllers": "/images/service-smart-controllers.webp",
+      "new-installations": "/images/service-new-installations.webp"
+    },
+    "servicesResponsive": {
+      "drip-irrigation": {
+        "src": "/images/service-drip-irrigation.webp",
+        "srcset": "/images/service-drip-irrigation-400w.webp 400w, /images/service-drip-irrigation-800w.webp 800w, /images/service-drip-irrigation-1200w.webp 1200w, /images/service-drip-irrigation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "sprinkler-repair": {
+        "src": "/images/service-sprinkler-repair.webp",
+        "srcset": "/images/service-sprinkler-repair-400w.webp 400w, /images/service-sprinkler-repair-800w.webp 800w, /images/service-sprinkler-repair-1200w.webp 1200w, /images/service-sprinkler-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "seasonal-adjustments": {
+        "src": "/images/service-seasonal-adjustments.webp",
+        "srcset": "/images/service-seasonal-adjustments-400w.webp 400w, /images/service-seasonal-adjustments-800w.webp 800w, /images/service-seasonal-adjustments-1200w.webp 1200w, /images/service-seasonal-adjustments.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "smart-controllers": {
+        "src": "/images/service-smart-controllers.webp",
+        "srcset": "/images/service-smart-controllers-400w.webp 400w, /images/service-smart-controllers-800w.webp 800w, /images/service-smart-controllers-1200w.webp 1200w, /images/service-smart-controllers.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "new-installations": {
+        "src": "/images/service-new-installations.webp",
+        "srcset": "/images/service-new-installations-400w.webp 400w, /images/service-new-installations-800w.webp 800w, /images/service-new-installations-1200w.webp 1200w, /images/service-new-installations.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
